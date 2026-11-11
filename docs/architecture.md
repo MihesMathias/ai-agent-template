@@ -5,15 +5,17 @@ parts talk to each other. Describe the shape, not every file.
 
 ## Parts
 
-TODO: one line per part: what it is responsible for.
+- Web Frontend: single-page interface powered by Vite and styled with Tailwind CSS, hosting pages for Login, Task List, and Administration.
+- State / Auth Layer: handles user authentication, session state, and permissions (User vs Admin).
+- Task Management Layer: handles CRUD operations on to-do items.
 
 ## How they connect
 
-TODO: who calls whom, and through what (HTTP, a function call, a queue, a file).
+- Frontend UI components interact with the Auth and Task service modules via clean function interfaces or HTTP client requests.
 
 ## Data
 
-TODO: where data lives and who is allowed to change it.
+- User profiles, role definitions (Standard User, Administrator), and user task lists.
 
 ## What does not belong here
 

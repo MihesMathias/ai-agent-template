@@ -22,8 +22,6 @@ Each rule has a reason; a rule without a reason gets ignored or misapplied.
 4. Never put secrets (passwords, API keys, tokens) in the repository or in a prompt.
    Why: what is committed or sent cannot be taken back.
 
-TODO: add your own rules below, each with the incident that caused it.
-
 ## Rule format
 
 ```

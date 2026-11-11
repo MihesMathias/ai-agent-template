@@ -10,7 +10,7 @@ bin\check.cmd      Windows (cmd or PowerShell)
 ```
 
 Out of the box, bin/check verifies the agent configuration: AGENTS.md has no
-TODO left and stays short, every document in docs/ has its line in AGENTS.md
+unresolved placeholders left and stays short, every document in docs/ has its line in AGENTS.md
 and every line points to a file that exists, CLAUDE.md and
 .github/copilot-instructions.md point to AGENTS.md instead of copying it.
 
@@ -24,4 +24,5 @@ place at the end of bin/check, so one command still answers "is it green?".
 
 ## Project tests
 
-TODO: how to run all tests, and how to run a single one.
+- Unit tests: run `yarn test:unit` or node test runner.
+- Browser tests: Playwright tests via `yarn test:e2e`.

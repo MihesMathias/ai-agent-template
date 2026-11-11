@@ -15,4 +15,12 @@ Rejected: the alternatives considered and why they lost.
 
 ## Entries
 
-TODO: add the first decision here.
+## 2026-11-11: Vite with TypeScript
+Decision: Use Vite with TypeScript for the frontend build and application logic.
+Why: Fast development reload, strong type safety, modern ecosystem standard.
+Rejected: Pure JavaScript without typing; heavy frontend frameworks for initial setup.
+
+## 2026-11-11: Tailwind CSS for UI styling
+Decision: Use Tailwind CSS as the styling framework for the application.
+Why: Rapid UI prototyping, modular utility classes, consistent styling system.
+Rejected: Plain hand-written CSS and component libraries that add heavy abstraction.

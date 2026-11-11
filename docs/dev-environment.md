@@ -8,22 +8,38 @@ give both versions.
 
 ## Requirements
 
-TODO: what must be installed, with versions (for example Docker Desktop, Git).
+- Docker and Docker Compose (recommended), or Node.js 24+ and Yarn 4 (`corepack enable`).
+- Git.
 
 ## Start
 
-```
-TODO: the commands that start the project
+### Using Docker (preferred)
+
+```sh
+docker compose up
 ```
 
-TODO: the address where it opens (for example http://localhost:5173).
+### Using local environment
+
+```sh
+yarn install
+yarn dev
+```
+
+The application opens at http://localhost:5173.
 
 ## Stop
 
+### Using Docker
+
+```sh
+docker compose down
 ```
-TODO: the commands that stop it
-```
+
+### Using local environment
+
+Press `Ctrl+C` in the running terminal.
 
 ## Common problems
 
-TODO: problems that actually happened, each with its fix.
+- Port 5173 is already in use: stop conflicting processes or adjust port mapping in compose.yaml.

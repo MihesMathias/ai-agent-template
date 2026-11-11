@@ -9,12 +9,15 @@ Code, comments, commit messages and the files in docs/ are written in English.
 
 ## Code style
 
-TODO: the formatter and linter used, and the few rules they do not cover.
+- Prettier for formatting, ESLint for linting.
+- Utility-first CSS classes using Tailwind CSS.
+- Meaningful semantic HTML and accessible form elements.
 
 ## Branches
 
-TODO: for example main is always working; one branch per task, named feature/<short-name>.
+- `main`: stable, always working code.
+- Feature branches: `feature/<short-name>` (e.g., `feature/login-page`).
 
 ## Commit messages
 
-TODO: for example one line in the imperative, under 72 characters: "Add login form validation".
+- One line in the imperative mood, under 72 characters: "Add login page UI with Tailwind CSS".

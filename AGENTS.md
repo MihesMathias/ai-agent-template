@@ -1,13 +1,13 @@
-# TODO: project name
+# Task List
 
-TODO: one or two sentences. What the project is and who uses it.
+A to-do application with accounts, tasks, and administration.
 
 ## Non-standard
-- TODO: only what an agent could not guess, for example "everything runs in
-  Docker" or "Yarn 4 with node_modules". Delete this section if there is nothing.
+- Dockerized environment via docker compose, Yarn 4 with node-modules linker.
 
 ## Structure
-TODO: folders, not files. Example: app/ front end · api/ server · database/ SQL
+- src/: application source code
+- docs/: project documentation and specifications
 
 ## Where to look
 - docs/state.md: first, in every session
